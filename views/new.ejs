@@ -1,0 +1,5 @@
+<% if (action === "error") {%>
+   Cannot find link
+<% } else if (action == "show"){ %>
+	{ "original" : "<%= link %>","short_url" : "http://viethqc-url-shortener.herokuapp.com/<%= id %>"}
+<% }%>

@@ -1,0 +1,10 @@
+<h1>URL Shortener Microservice</h1>
+<h2>Example creation usage:</h2>
+	http://viethqc-url-shortener.herokuapp.com/new/https://www.google.com
+	http://viethqc-url-shortener.herokuapp.com/new/http://foo.com:80
+<h2>Example creation output</h2>
+	{ "original_url":"http://foo.com:80", "short_url":"http://viethqc-url-shortener.herokuapp.com/8170" }
+<h2>Usage:</h2>
+http://viethqc-url-shortener.herokuapp.com/2871
+<h2>Will redirect to:</h2>
+https://www.google.com/

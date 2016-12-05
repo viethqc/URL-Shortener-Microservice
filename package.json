@@ -1,0 +1,27 @@
+{
+  "name": "urlshorter",
+  "version": "1.0.0",
+  "description": "url shorter microservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viethqc/URL-Shortener-Microservice.git"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "viethqc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viethqc/URL-Shortener-Microservice/issues"
+  },
+  "homepage": "https://github.com/viethqc/URL-Shortener-Microservice#readme",
+  "dependencies": {
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.12"
+  }
+}
