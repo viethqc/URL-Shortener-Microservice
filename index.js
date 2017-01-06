@@ -3,7 +3,7 @@ var app = express();
 var url = require('url');
 var mongo = require('mongodb').MongoClient;
 
-var urlMongo ="mongodb://viethqc:hoangquocviet24@ds01316.mlab.com:1316/urlshorter"
+var urlMongo ="mongodb://viethqc:hoangquocviet24@ds157288.mlab.com:57288/urlshorter"
 
 app.set('port', process.env.PORT || 5000);
 
